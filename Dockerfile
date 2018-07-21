@@ -3,7 +3,7 @@ LABEL maintainer="Yuya Matsushima"
 
 ENV APP_DIR /app
 ENV HUGO_ENV development
-ENV HUGO_VERSION 0.39
+ENV HUGO_VERSION 0.44
 
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz /tmp
 
